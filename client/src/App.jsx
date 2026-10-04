@@ -76,9 +76,9 @@ function AuthPage({ onAuthenticated }) {
   return (
     <main className="auth-screen">
       <section className="auth-card">
-        <a className="brand auth-brand" href="#login" aria-label="Ledgerly">
-          <span className="brand-mark">L</span>
-          <span>ledgerly<span className="brand-period">.</span></span>
+        <a className="brand auth-brand" href="#login" aria-label="ExpenseX">
+          <span className="brand-mark">X</span>
+          <span>ExpenseX<span className="brand-period">.</span></span>
         </a>
         <div className="auth-eyebrow">YOUR MONEY, IN GOOD ORDER</div>
         <h1>{mode === "register" ? "Create your account" : "Welcome back"}</h1>
@@ -400,9 +400,9 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a className="brand" href="#overview" aria-label="Ledgerly home">
-          <span className="brand-mark">L</span>
-          <span>ledgerly<span className="brand-period">.</span></span>
+        <a className="brand" href="#overview" aria-label="ExpenseX home">
+          <span className="brand-mark">X</span>
+          <span>ExpenseX<span className="brand-period">.</span></span>
         </a>
         <div className="workspace-label">WORKSPACE</div>
         <nav className="side-nav" aria-label="Main navigation">
@@ -683,7 +683,7 @@ function App() {
             </section>
           </aside>
         </div>
-        <footer className="page-footer"><span>Ledgerly</span><span>Simple books. Better focus.</span></footer>
+        <footer className="page-footer"><span>ExpenseX</span><span>Simple books. Better focus.</span></footer>
       </main>
 
       {modal && (

@@ -1,4 +1,4 @@
-# Ledgerly — MERN expense tracker
+# ExpenseX — MERN expense tracker
 
 A small full-stack expense tracker for keeping customer records and recording expenses against each customer. It is intentionally built with straightforward React components and Express routes, so it is approachable to explain in an interview.
 
